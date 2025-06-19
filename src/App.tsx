@@ -41,10 +41,11 @@ function App() {
         formData.append('jobDescription', jobDescription);
       }
 
-      const response = await fetch('/api/analyze-resume', {
-        method: 'POST',
-        body: formData,
-      });
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/analyze-resume`, {
+  method: 'POST',
+  body: formData,
+});
+
 
       const data = await response.json();
 
