@@ -53,7 +53,7 @@ Before running this application, make sure you have:
    cp .env.example .env
    ```
    
-   Edit the `.env` file and add your Gemini API key:
+   ADD the `.env` file and add your Gemini API key:
    ```env
    GEMINI_API_KEY=your_gemini_api_key_here
    PORT=3001
