@@ -184,4 +184,4 @@ If you encounter any issues or have questions:
 
 ---
 
-**Built with ❤️ using React, Node.js, and Google Gemini AI**
+**Built with ❤️ using React, Node.js, and OPEN ROUTER API(you can use GEMINI API also)**
